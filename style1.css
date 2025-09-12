@@ -1,0 +1,129 @@
+
+.sbar{   /*style for search/share button Note: unsuable until Js stuff*/
+    position: fixed;
+    top: 80px;
+    right: 100px;
+
+}
+
+
+body { /*font  design*/
+    font-family:Poppins, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #ff4133 0%, #48f005 100%);
+}
+.li{/*style links in navbar*/
+    margin:  15px;
+    text-decoration: none;
+    
+    font-weight: bold;
+
+}
+.title-bar{ /*place title bar at the top left, with styles */
+    
+    background: linear-gradient(to right, #ff4133 0%, #6b05f0 100%);
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 450px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: poppins, sans-serif;
+   
+}  
+.b{    /*fixes navbar at the top and centers it with designs */ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;    
+     background: linear-gradient(to right, #33f1ff 0%, #0557f0 100%);
+    font-weight: bold; 
+}
+.b1{ /*circle logo*/
+    vertical-align: middle;
+            height: 32px;
+            width: 32px;
+            margin-right: 5px;
+            border-radius: 50%;
+}
+.r{ /*circle images*/
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c { /*container for the 3 columns*/
+    display: flex;
+    gap: 42px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 32px auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+  
+    
+}
+/* c1-c3  are the styles for each*/
+.c1   {
+    flex: 1 1 0;
+    min-width: 300px;
+    min-height: 100%;
+    background: #06e2d0;
+    padding: 30px 15px;
+    margin:0;
+    text-align: left;
+     word-break: break-word;
+     box-sizing: border-box;
+}
+.c2{
+   flex: 1 1 0;
+    min-width: 300px;
+    min-height: 100%;
+    background: #06e2d0;
+    padding:  30px 15px;
+    margin:0;
+    text-align: left;
+     word-break: break-word;
+     box-sizing: border-box;
+}
+
+.c3{
+   flex: 1 1 0;
+    min-width: 300px;
+    min-height: 100%;
+    background: #06e2d0;
+    padding:  30px 15px;
+    margin:0;
+    text-align: left;
+     word-break: break-word;
+     box-sizing: border-box;
+}
+
+
+.f{ /*footer design, and fixed at the bottom left*/
+  background: linear-gradient(to right, #ff4133 0%, #48f005 100%);
+    margin-top: auto; /* Pushes footer to the bottom */
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+body { /*helps fix footer is at the bottom of the page*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
